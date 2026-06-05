@@ -1,3 +1,3 @@
 #HSBC HK
-DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-SUFFIX,mobile.eum-appdynamics.com
+DOMAIN-SUFFIX,hsbc.com.hk,PROXY
+DOMAIN-SUFFIX,mobile.eum-appdynamics.com,PROXY
