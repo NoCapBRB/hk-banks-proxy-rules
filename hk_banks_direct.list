@@ -1,8 +1,10 @@
-#All HK banks and wise, except HSBC HK & Amex HK
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,sc.com
+#All HK banks, except HSBC HK & Amex HK
+# --- sc ---
+URL-REGEX,^https?://www\.sc\.com/hk/
+DOMAIN,api.sc.com
 DOMAIN-SUFFIX,standardchartered.com.hk
-DOMAIN-SUFFIX,standardchartered.com
+DOMAIN-KEYWORD,standardchartered-hk
+# ---------------------------------------------
 DOMAIN-SUFFIX,ccb.com.hk
 DOMAIN-SUFFIX,asia.ccb.com
 DOMAIN-SUFFIX,bochk.com
@@ -23,11 +25,9 @@ DOMAIN-SUFFIX,dahsing.com
 DOMAIN-SUFFIX,dahsing.com.hk
 DOMAIN-SUFFIX,chbank.com
 DOMAIN-SUFFIX,ncb.com.hk
-DOMAIN-SUFFIX,dahsing.com
 DOMAIN-SUFFIX,icbcasia.com
 DOMAIN-SUFFIX,fubon.com
-DOMAIN-SUFFIX,citibank.com
-DOMAIN-SUFFIX,citi.com
+DOMAIN-SUFFIX,citi.com.hk
 DOMAIN-SUFFIX,bankcomm.com.hk
 DOMAIN-SUFFIX,bodintl.com
 DOMAIN-SUFFIX,za.group
